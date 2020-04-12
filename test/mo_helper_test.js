@@ -16,3 +16,9 @@ before((done) => {
         });
 });
 
+beforeEach((done)=>{
+ mongoose.connection.collections.students.drop(()=>{
+     done();
+ });
+});
+
