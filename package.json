@@ -1,0 +1,24 @@
+{
+  "name": "mongotube",
+  "version": "1.0.0",
+  "description": "a fun project for youtube",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/v604jais/mocha.git"
+  },
+  "author": "vishal jaiswal <vjaiswal604@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/v604jais/mocha/issues"
+  },
+  "homepage": "https://github.com/v604jais/mocha#readme",
+  "dependencies": {
+    "mocha": "^7.1.1",
+    "mongoose": "^5.9.7",
+    "nodemon": "^2.0.3"
+  }
+}
